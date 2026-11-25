@@ -1,0 +1,38 @@
+Jordan Rivera
+jordan.rivera@example.com | (555) 010-2233 | Austin, TX | github.com/jrivera-example
+
+SUMMARY
+Software developer with 5 years of experience building web applications. Comfortable across the stack, enjoys working with data.
+
+EXPERIENCE
+
+Software Engineer II — Brightline Logistics, Austin, TX
+March 2022 – Present
+- Built internal dashboards in React for the dispatch team to track ~4,000 daily shipments
+- Wrote Python services (Flask) that pull carrier data from 12 partner APIs and store it in PostgreSQL
+- Moved nightly batch jobs from cron on a VM to AWS Lambda and EventBridge, cutting infra cost by about 30%
+- Set up GitHub Actions to run tests and deploy services to AWS
+- Mentored two junior developers and ran weekly code reviews
+- Fixed bugs and handled on-call rotation one week per month
+
+Software Developer — Cedar & Pine Marketing, Remote
+June 2019 – February 2022
+- Developed client websites with JavaScript, PHP and MySQL
+- Built a small recommendation feature for an e-commerce client using Python and scikit-learn that suggested related products; client reported more add-to-cart clicks
+- Created reporting scripts in Python and pandas to summarize campaign performance for account managers
+- Worked directly with clients to gather requirements
+
+IT Support Intern — Austin Community College
+Summer 2018
+- Helped staff with hardware and software issues
+
+PROJECTS
+Recipe Q&A bot — Python, OpenAI API, FAISS
+- Weekend project: chatbot that answers questions about my saved recipes by searching embeddings of recipe text
+- Deployed on Render with a simple Streamlit front end
+
+EDUCATION
+B.S. Computer Science, Texas State University, 2019
+
+SKILLS
+JavaScript, React, Python, Flask, pandas, scikit-learn, SQL, PostgreSQL, MySQL, PHP, AWS (Lambda, EventBridge, S3), Docker, Git, GitHub Actions, Linux

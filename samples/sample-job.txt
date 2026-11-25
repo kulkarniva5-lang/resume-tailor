@@ -1,0 +1,24 @@
+AI Application Engineer — Northwind Health (Hybrid, Austin TX)
+
+We're looking for an engineer to build LLM-powered features into our patient-support products.
+
+What you'll do
+- Design and ship retrieval-augmented generation (RAG) features over clinical documentation
+- Build and maintain Python APIs (FastAPI preferred) that serve AI features to our React front end
+- Evaluate model quality: build eval sets, track regressions, and improve prompts
+- Deploy and operate services on AWS with CI/CD
+- Partner with product and clinical teams to turn requirements into working features
+
+Requirements
+- 3+ years of professional software engineering experience
+- Strong Python; experience building REST APIs
+- Hands-on experience with LLM APIs and embeddings / vector search
+- Experience with React or another modern front-end framework
+- AWS experience (serverless a plus) and CI/CD pipelines
+- Solid SQL and data modeling skills
+
+Nice to have
+- Experience with evaluation frameworks for LLM applications
+- Kubernetes
+- Healthcare or HIPAA experience
+- Mentoring other engineers
