@@ -150,6 +150,12 @@ textarea.tall { flex: 1; min-height: 300px; }
   background: var(--text); color: var(--bg); padding: 10px 16px; border-radius: 10px; font-size: 14px;
 }
 
+.privacy-note { grid-column: 1 / -1; margin: 0; font-size: 13px; color: var(--muted); text-align: center; }
+.footer {
+  margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line);
+  text-align: center; font-size: 13px; font-weight: 600; color: var(--muted);
+}
+
 @media (max-width: 960px) {
   .inputs, .result { grid-template-columns: 1fr; }
   .analysis { position: static; max-height: none; }

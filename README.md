@@ -85,7 +85,9 @@ frontend/src/
 
 ## Privacy
 
-Resumes are sent to the Anthropic API for processing and are not stored by this app. There is no authentication or rate limiting, so don't expose a deployment publicly without adding them.
+Nothing is stored. An uploaded resume is read into memory, converted to text, and discarded after the request; the backend has no database and writes nothing to disk. Results live only in the browser tab and disappear when it closes; the frontend doesn't use cookies or local storage. The resume and job posting are sent to the Anthropic API to generate the rewrite.
+
+There is no authentication or rate limiting, so don't expose a deployment publicly without adding them.
 
 ## License
 

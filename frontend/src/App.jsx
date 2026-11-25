@@ -55,6 +55,10 @@ export default function App() {
         <Result data={data} />
       ) : (
         <form className="inputs" onSubmit={submit}>
+          <p className="privacy-note">
+            Nothing is saved: your resume is processed in memory and discarded, and results disappear when you close this
+            tab.
+          </p>
           <section className="card">
             <h2>1. Your resume</h2>
             <FilePicker file={file} setFile={setFile} />
@@ -97,6 +101,8 @@ export default function App() {
           </div>
         </form>
       )}
+
+      <footer className="footer">Built by VK</footer>
     </div>
   );
 }
